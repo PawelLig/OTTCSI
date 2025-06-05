@@ -151,7 +151,7 @@ Public Class ue_VendorReplication
                     If pVendVATCode = "NT" Then
                         sSiteVATCode = "NT"
                     ElseIf ParsedSites(i) = "STERLING" Then
-                        sSiteVATCode = "IMPORT"
+                        sSiteVATCode = "NA"
                     ElseIf pVendECCode = sSiteCountryISO Then
                         sSiteVATCode = Nothing
                     ElseIf ParsedSites(i) <> "STERLING" And pVendECCode = Nothing Then
